@@ -1,0 +1,14 @@
+{
+  "name": "wa-decrypt-api",
+  "version": "1.0.0",
+  "description": "API para descriptografar mídia do WhatsApp (.enc) usando @open-wa/wa-decrypt",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@open-wa/wa-decrypt": "^1.1.4",
+    "axios": "^1.6.8",
+    "express": "^4.18.2"
+  }
+}
