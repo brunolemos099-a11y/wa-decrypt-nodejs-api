@@ -1,0 +1,14 @@
+{
+  "name": "wa-decrypt-api",
+  "version": "1.0.0",
+  "description": "API para descriptografar arquivos .enc do WhatsApp via Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@open-wa/wa-decrypt": "^1.2.5",
+    "axios": "^1.6.8",
+    "express": "^4.19.2"
+  }
+}
